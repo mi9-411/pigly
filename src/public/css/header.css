@@ -1,0 +1,49 @@
+.header-utilities{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header-logo{
+    text-decoration: none;
+    color: #ec86ee;
+    font-family: "Lusitana", serif;
+    font-size: 25px;
+}
+
+.header-nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav--button{
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    background: #f0f0f0;
+    font-size: 15px;
+}
+
+.header-nav--button-submit{
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.header-nav--button::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    background: url(..\storage\settings_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translate(0, -50%);
+}
